@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class DesignPatternApplication {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) {//v
 		//SpringApplication.run(DesignPatternApplication.class, args);
 	}
 }
