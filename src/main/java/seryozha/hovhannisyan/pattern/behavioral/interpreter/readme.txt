@@ -1,0 +1,5 @@
+http://www.journaldev.com/1635/interpreter-design-pattern-in-java-example-tutorial
+
+Interpreter pattern can be used when we can create a syntax tree for the grammar we have.
+Interpreter pattern requires a lot of error checking and a lot of expressions and code to evaluate them, it gets complicated when the grammar becomes more complicated and hence hard to maintain and provide efficiency.
+java.util.Pattern and subclasses of java.text.Format are some of the examples of interpreter pattern used in JDK.
