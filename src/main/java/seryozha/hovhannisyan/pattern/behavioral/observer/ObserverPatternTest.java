@@ -4,7 +4,7 @@ package seryozha.hovhannisyan.pattern.behavioral.observer;
  * Created by Seryozha on 1/30/2017.
  */
 public class ObserverPatternTest {
-    public static void main(String[] args) {
+    public static void main2(String[] args) {
         //create subject
         OMyTopic topic = new OMyTopic();
 

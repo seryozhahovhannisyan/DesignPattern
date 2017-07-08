@@ -4,7 +4,7 @@ package seryozha.hovhannisyan.pattern.structural.facade;
  * Created by Seryozha on 1/29/2017.
  */
 public class FacadePatternTest {
-    public static void main(String[] args) {
+    public static void main2(String[] args) {
         String tableName = "Employee";
 
         //generating MySql HTML report and Oracle PDF report without using Facade

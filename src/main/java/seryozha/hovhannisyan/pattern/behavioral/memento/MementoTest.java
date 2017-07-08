@@ -6,7 +6,7 @@ import java.util.Date;
  * Created by Seryozha on 1/29/2017.
  */
 public class MementoTest {
-    public static void main(String[] args) {
+    public static void main2(String[] args) {
         
         CaretakerFileWriter caretaker = new CaretakerFileWriter();
 

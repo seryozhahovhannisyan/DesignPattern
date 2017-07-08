@@ -1,0 +1,1 @@
+http://www.journaldev.com/1769/visitor-design-pattern-java

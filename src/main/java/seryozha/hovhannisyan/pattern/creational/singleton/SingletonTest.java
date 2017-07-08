@@ -7,7 +7,7 @@ import java.lang.reflect.Constructor;
  * Created by Seryozha on 1/28/2017.
  */
 public class SingletonTest {
-    public static void main(String[] args) {
+    public static void main2(String[] args) {
         try {
 
             SingletonStaticBlockInitialization first = SingletonStaticBlockInitialization.getInstance();
