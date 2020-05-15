@@ -6,7 +6,7 @@ import java.util.List;
  * Created by Seryozha on 1/28/2017.
  */
 public class PrototypePatternTest {
-    public static void main2(String[] args) throws CloneNotSupportedException {
+    public static void main(String[] args) throws CloneNotSupportedException {
         Employees emps = new Employees();
         emps.loadData();
 
@@ -21,5 +21,9 @@ public class PrototypePatternTest {
         System.out.println("emps List: "+emps.getEmpList());
         System.out.println("empsNew List: "+list);
         System.out.println("empsNew1 List: "+list1);
+
+        PrototypePatternTest prototypePatternTest = new PrototypePatternTest();
+        Object  c =  prototypePatternTest.clone();
+        System.out.println(c );
     }
 }

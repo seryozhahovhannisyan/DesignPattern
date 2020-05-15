@@ -10,7 +10,7 @@ public class CFileSystemReceiverUtil {
         System.out.println("Underlying OS is:"+osName);
         if(osName.contains("Windows")){
             return new CWindowsFileSystemReceiver();
-        }else{
+        } else{
             return new CUnixFileSystemReceiver();
         }
     }

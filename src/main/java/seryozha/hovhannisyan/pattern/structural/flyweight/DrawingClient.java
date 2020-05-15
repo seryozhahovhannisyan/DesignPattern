@@ -69,7 +69,7 @@ public class DrawingClient extends JFrame {
         return colors[(int) (Math.random() * colors.length)];
     }
 
-    public static void main2(String[] args) {
+    public static void main(String[] args) {
         DrawingClient drawing = new DrawingClient(500, 600);
     }
 }

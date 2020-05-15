@@ -12,7 +12,9 @@ public class SingletonEagerInitialization {
     private static final SingletonEagerInitialization instance = new SingletonEagerInitialization();
 
     //private constructor to avoid client applications to use constructor
-    private SingletonEagerInitialization(){}
+    private SingletonEagerInitialization(){
+        System.out.println(1);
+    }
 
     public static SingletonEagerInitialization getInstance(){
         return instance;
