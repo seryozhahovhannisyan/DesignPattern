@@ -2,9 +2,12 @@ package seryozha.hovhannisyan.pattern.structural.decorator;
 
 /**
  * Created by Seryozha on 1/29/2017.
+ *
+ * Single Responsibility Principle,
+ * https://www.decipherzone.com/blog-detail/decorator-design-pattern-java-example
  */
 public class DecoratorPatternTest {
-    public static void main2(String[] args) {
+    public static void main(String[] args) {
         DCar sportsCar = new DSportsCar(new DBasicCar());
         sportsCar.assemble();
         System.out.println("\n*****");

@@ -5,7 +5,7 @@ package seryozha.hovhannisyan.pattern.structural.adapter;
  */
 public class AdapterPatternTest {
 
-    public static void main2(String[] args) {
+    public static void main(String[] args) {
         testClassAdapter();
         testObjectAdapter();
     }

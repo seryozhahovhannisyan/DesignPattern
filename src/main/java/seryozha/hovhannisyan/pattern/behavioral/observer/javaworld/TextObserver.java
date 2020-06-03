@@ -12,6 +12,7 @@ public class TextObserver implements Observer {
 
     @Override
     public void update(Observable obs, Object obj) {
+        System.out.println("TextObserver " + ov.getValue());
         if (obs == ov) {
             System.out.println(ov.getValue());
         }

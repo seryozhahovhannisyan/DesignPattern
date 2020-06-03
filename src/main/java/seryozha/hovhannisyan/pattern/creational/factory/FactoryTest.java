@@ -2,6 +2,9 @@ package seryozha.hovhannisyan.pattern.creational.factory;
 
 /**
  * Created by Seryozha on 1/28/2017.
+ *
+ *
+ * The factory design pattern says that code should be open for extension but closed for modification, as all patterns agree to that.
  */
 public class FactoryTest {
     public static void mai2n(String[] args) {

@@ -7,6 +7,17 @@ public class Main {
         TextObserver to = new TextObserver(ov);
         ov.addObserver(to);
 
+        ov.setValue(45);
+        ov.changed();
+        ov.notifyObservers();
+        System.out.println("B");
+        ov.notifyObservers();
+        System.out.println("A");
+
+        System.out.println("B2");
+        ov.changed();
+        ov.notifyObservers();
+        System.out.println("Aa");
 
     }
 

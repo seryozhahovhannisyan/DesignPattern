@@ -1,0 +1,4 @@
+
+A classic example of the Dependency Inversion Principle that states: Modules should be independent.
+They should depend on abstractions. and abstractions should not depend on details.
+Details should depend on abstractions. Our object chain depends on the abstraction (AbstractSupportHandler)

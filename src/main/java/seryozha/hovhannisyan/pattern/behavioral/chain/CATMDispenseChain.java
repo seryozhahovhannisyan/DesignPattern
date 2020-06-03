@@ -7,13 +7,13 @@ import java.util.Scanner;
  */
 public class CATMDispenseChain {
 
-    private CDispenseChain c1;
+    private CDispenseChainHandler c1;
 
     public CATMDispenseChain() {
         // initialize the chain
-        this.c1 = new CDollar50Dispenser();
-        CDispenseChain c2 = new CDollar20Dispenser();
-        CDispenseChain c3 = new CDollar10Dispenser();
+        this.c1 = new CDollar50DispenserHandler();
+        CDispenseChainHandler c2 = new CDollar20DispenserHandler();
+        CDispenseChainHandler c3 = new CDollar10DispenserHandler();
 
         // set the chain of responsibility
         System.out.println("c1");

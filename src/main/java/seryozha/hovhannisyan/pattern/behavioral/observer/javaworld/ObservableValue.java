@@ -11,8 +11,12 @@ public class ObservableValue extends Observable {
 
     public void setValue(int n) {
         this.n = n;
+//        setChanged();
+//        notifyObservers();
+    }
+
+    public void changed() {
         setChanged();
-        notifyObservers();
     }
 
     public int getValue() {

@@ -3,12 +3,12 @@ package seryozha.hovhannisyan.pattern.behavioral.chain;
 /**
  * Created by Serozh on 7/8/1017.
  */
-public class CDollar10Dispenser implements CDispenseChain {
+public class CDollar10DispenserHandler implements CDispenseChainHandler {
 
-    private CDispenseChain chain;
+    private CDispenseChainHandler chain;
 
     @Override
-    public void setNextChain(CDispenseChain nextChain) {
+    public void setNextChain(CDispenseChainHandler nextChain) {
         this.chain = nextChain;
     }
 
